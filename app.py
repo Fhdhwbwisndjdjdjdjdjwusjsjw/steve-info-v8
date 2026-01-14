@@ -92,7 +92,7 @@ def apis_with_rotation(idd_hex: str):
             'Authorization': f'Bearer {token}',
             'X-Unity-Version': '2018.4.11f1',
             'X-GA': 'v1 1',
-            'ReleaseVersion': 'OB51',
+            'ReleaseVersion': 'OB52',
             'Content-Type': 'application/x-www-form-urlencoded',
         }
         data = bytes.fromhex(idd_hex)
